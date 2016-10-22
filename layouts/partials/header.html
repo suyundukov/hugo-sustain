@@ -1,0 +1,16 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      {{ if .Site.Menus.main }}
+        {{ range sort .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name | upper }}</a></li>
+        {{ end }}
+      {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

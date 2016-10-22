@@ -1,0 +1,44 @@
+baseurl = "https://example.com/"
+languageCode = "en-US"
+title = "Chris Turner"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "Chris Turner"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[social]
+  Github        = "username"
+  Email         = "email@example.com"
+  Twitter       = "username"
+  LinkedIn      = "username"
+  Stackoverflow = "username"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
