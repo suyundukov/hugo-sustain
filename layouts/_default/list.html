@@ -1,30 +1,31 @@
 {{ partial "head" . }}
-<body>
-  <div id="wrap">
-    <!-- Header -->
-    {{ partial "header" . }}
-    <div class="container">
-      <h3>Archive</h3>
-        <div class="panel panel-default">
-          <div class="panel-body">
-          {{ range .Data.Pages.ByPublishDate }}
-            <div class="row">
-              <div class="col-sm-4 col-md-4 col-lg-4">
-                <h5 style="text-align: right">
-                  {{ .Date.Format "January 2, 2006" }}
-                </h5>
-               </div>
-               <div class="col-sm-8 col-md-8 col-lg-8">
-                 <h5 style="text-align: left">
-                  <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
-                </h5>
+  <body>
+    <div id="wrap">
+      <!-- Header -->
+      {{ partial "header" . }}
+      <div class="container">
+        <h3>Archive</h3>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            {{ range .Data.Pages.ByPublishDate }}
+              <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                  <h5 style="text-align: right">
+                    {{ .Date.Format "January 2, 2006" }}
+                  </h5>
+                 </div>
+                 <div class="col-sm-8 col-md-8 col-lg-8">
+                   <h5 style="text-align: left">
+                    <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
+                  </h5>
+                </div>
               </div>
+            {{ end }}
             </div>
-          {{ end }}
           </div>
-        </div>
+      </div>
     </div>
-  </div>
-  <!-- Footer -->
-  {{ partial "footer" . }}
-</body>
+    <!-- Footer -->
+    {{ partial "footer" . }}
+  </body>
+</html>
