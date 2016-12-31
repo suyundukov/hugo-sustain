@@ -1,7 +1,6 @@
 ![Sustain - Logo][logo]
 
-Table of Contents
------------------
+## Table of Contents
 
 - [Installation](#installation)
 - [Quick start](#quick-start)
@@ -22,12 +21,11 @@ Table of Contents
 
 <p align="center"><b><a href="https://demo.sumaxi.me/themes/hugo-sustain/">Sustain Live Demo</a></b></p>
 
-Installation
-------------
+## Installation
 
 #### With `git`
 
-From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running : 
+From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running :
 ```
 git clone https://github.com/sumaxime/hugo-sustain.git themes/hugo-sustain
 ```
@@ -40,8 +38,7 @@ git clone https://github.com/sumaxime/hugo-sustain.git themes/hugo-sustain
 
 For more information read the official [setup guide][hugo-guide] of Hugo.
 
-Quick start
------------
+## Quick start
 
 After installation, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your documentation.
 
@@ -59,7 +56,7 @@ After installation, take a look in the `exampleSite` folder at. This directory c
   └── static
 ```
 
-Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary. 
+Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
 
 Hugo includes a development server, so you can view your changes as you go -
 very handy. Spin it up with the following command:
@@ -71,8 +68,7 @@ hugo serve
 Now you can go to [localhost:1313][local] and the Sustain
 theme should be visible.
 
-Features
---------
+## Features
 
 ### Syntax highlighting
 
@@ -86,13 +82,11 @@ To use this feature, uncomment and fill out the `disqusShortname` parameter in c
 
 To add Google Analytics, simply sign up to [Google Analytics][g-analytics] to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
 
-About
------
+## About
 
 This is a port of the Jekyll theme [Sustain][sustain-jekyll] by [Fábio Madeira][sustain-author]. It supports most of the features of the original theme.
 
-Contributing
-------------
+## Contributing
 
 Pull requests, bug fixes, and new features are welcome!
 
@@ -102,17 +96,20 @@ Pull requests, bug fixes, and new features are welcome!
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request on GitHub
 
-Changelog
----------
+## Changelog
 
 > Version 1.0
 
 - Initial release
 
-License
--------
+## License
 
-This theme is released under the [MIT license](LICENSE.md).
+<p align="center">
+  <a href="./LICENSE.md"><img src="https://i1.sumaxi.me/i/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE.md"><strong>MIT</strong></a>
+</p>
+
+
 
 [logo]: https://i1.sumaxi.me/i/sustain.png
 [screenshot]: https://i1.sumaxi.me/i/sustain-screen.png
