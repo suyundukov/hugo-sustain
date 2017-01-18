@@ -1,15 +1,15 @@
 name = "Sustain"
 license = "MIT"
-licenselink = "https://github.com/sumaxime/hugo-sustain/blob/master/LICENSE.md"
+licenselink = "https://github.com/nurlansu/hugo-sustain/blob/master/LICENSE.md"
 description = "Personal blog built with Bootstrap, powered by Hugo"
-homepage = "https://github.com/sumaxime/hugo-sustain"
+homepage = "https://github.com/nurlansu/hugo-sustain"
 tags = ["blog", "minimal", "responsive"]
 features = ["responsive", "syntax highlighting"]
 min_version = 0.17
 
 [author]
   name = "Nurlan Su"
-  homepage = "https://github.com/sumaxime"
+  homepage = "https://github.com/nurlansu"
 
 # If porting an existing theme
 [original]

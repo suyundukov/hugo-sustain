@@ -19,7 +19,7 @@
 
 ********************
 
-<p align="center"><b><a href="https://demo.sumaxi.me/themes/hugo-sustain/">Sustain Live Demo</a></b></p>
+<p align="center"><b><a href="https://demo.nurlan.co/themes/hugo-sustain/">Sustain Live Demo</a></b></p>
 
 ## Installation
 
@@ -27,7 +27,7 @@
 
 From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running :
 ```
-git clone https://github.com/sumaxime/hugo-sustain.git themes/hugo-sustain
+git clone https://github.com/nurlansu/hugo-sustain.git themes/hugo-sustain
 ```
 
 #### Manual
@@ -105,18 +105,18 @@ Pull requests, bug fixes, and new features are welcome!
 ## License
 
 <p align="center">
-  <a href="./LICENSE.md"><img src="https://i1.sumaxi.me/i/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE.md"><img src="https://i.nurlan.co/i/logo.svg" width="100%" height="128"></a>
   <a href="./LICENSE.md"><strong>MIT</strong></a>
 </p>
 
 
 
-[logo]: https://i1.sumaxi.me/i/sustain.png
-[screenshot]: https://i1.sumaxi.me/i/sustain-screen.png
+[logo]: https://i.nurlan.co/i/sustain.png
+[screenshot]: https://i.nurlan.co/i/sustain-screen.png
 [bootstrap]: https://getbootstrap.com/
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
-[zip-archive]: https://github.com/sumaxime/hugo-sustain/archive/master.zip
+[zip-archive]: https://github.com/nurlansu/hugo-sustain/archive/master.zip
 [hugo-guide]: https://gohugo.io/overview/installing/
 [local]: http://localhost:1313/
 [highlight-js]: https://highlightjs.org/
