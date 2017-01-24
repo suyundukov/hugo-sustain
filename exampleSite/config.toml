@@ -19,7 +19,6 @@ theme = "hugo-sustain"
   custom_css = []
   custom_js  = []
 
-[social]
   Github        = "username"
   Email         = "email@example.com"
   Twitter       = "username"
