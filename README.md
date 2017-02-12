@@ -105,14 +105,14 @@ Pull requests, bug fixes, and new features are welcome!
 ## License
 
 <p align="center">
-  <a href="./LICENSE.md"><img src="https://i.nurlan.co/i/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE.md"><img src="https://i.nurlan.co/logo.svg" width="100%" height="128"></a>
   <a href="./LICENSE.md"><strong>MIT</strong></a>
 </p>
 
 
 
-[logo]: https://i.nurlan.co/i/sustain.png
-[screenshot]: https://i.nurlan.co/i/sustain-screen.png
+[logo]: https://i.nurlan.co/sustain.png
+[screenshot]: https://i.nurlan.co/sustain-screen.png
 [bootstrap]: https://getbootstrap.com/
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
