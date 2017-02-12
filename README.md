@@ -19,7 +19,7 @@
 
 ********************
 
-<p align="center"><b><a href="https://demo.nurlan.co/themes/hugo-sustain/">Sustain Live Demo</a></b></p>
+<p align="center"><b><a href="https://demo.nurlan.co/hugo-sustain/">Sustain Live Demo</a></b></p>
 
 ## Installation
 
