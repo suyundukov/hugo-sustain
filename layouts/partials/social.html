@@ -1,23 +1,23 @@
 <div class="social">
-	<h4>
+  <ul class="social-links">
     {{ if .Site.Params.Social.Github }}
-	  <a href="http://github.com/{{ .Site.Params.Social.Github }}"><i class="fa fa-github"></i></a>
+      <li><a href="http://github.com/{{ .Site.Params.Social.Github }}"><i class="fa fa-github"></i></a></li>
     {{ end }}
 
     {{ if .Site.Params.Social.Email }}
-	  <a href="mailto:{{ .Site.Params.Social.Email }}"><i class="fa fa-envelope"></i></a>
+      <li><a href="mailto:{{ .Site.Params.Social.Email }}"><i class="fa fa-envelope"></i></a></li>
     {{ end }}
 
     {{ if .Site.Params.Social.Twitter }}
-	  <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}"><i class="fa fa-twitter"></i></a>
+      <li><a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}"><i class="fa fa-twitter"></i></a></li>
     {{ end }}
 
     {{ if .Site.Params.Social.LinkedIn }}
-	  <a href="http://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}"><i class="fa fa-linkedin"></i></a>
+      <li><a href="http://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}"><i class="fa fa-linkedin"></i></a></li>
     {{ end }}
 
     {{ if .Site.Params.Social.Stackoverflow }}
-	  <a href="http://stackoverflow.com/{{ .Site.Params.Social.Stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
+      <li><a href="http://stackoverflow.com/{{ .Site.Params.Social.Stackoverflow }}"><i class="fa fa-stack-overflow"></i></a></li>
     {{ end }}
-	</h4>
+  </ul>
 </div>
