@@ -1,13 +1,12 @@
-/* Main page with stikky-footer
--------------------------------------------------- */
-html,
-body {
+/* Main page with stikky-footer */
+html, body {
   height: 100%;
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #27A822;
 }
+
 /* Wrapper for page content to push down footer */
 #wrap {
   padding-bottom: 50px;	
@@ -19,9 +18,7 @@ body {
   /*padding: 0 0 60px;*/
 }
 
-/* Navbar
--------------------------------------------------- */
-
+/* Navbar */
 .navbar-static-top {
   margin-bottom: 10px;
 }
@@ -84,9 +81,7 @@ body {
   }
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-
+/* Custom page CSS */
 .container {
   width: auto;
   max-width: 800px;
@@ -157,16 +152,13 @@ body {
 .disqus {
   padding-bottom: 15px;
 }
-
 .blogpost{
   text-align: left;
   line-height: 30px;
   font-size: 18px;
 }
 
-/* Footer 
--------------------------------------------------- */
-
+/* Footer  */
 .footer {
   text-decoration: none !important;
 }
