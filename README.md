@@ -46,13 +46,17 @@ After installation, take a look in the `exampleSite` folder at. This directory c
   exampleSite
   ├── config.toml
   ├── content
-  │   ├── projects
-  │   │   └── index.md
+  │   ├── projects.md
+  │   │
   │   └── blog
   │       ├── creating-a-new-theme.md
   │       ├── go-is-for-lovers.md
   │       ├── hugo-is-for-lovers.md
   │       └── migrate-from-jekyll.md
+  │
+  ├── data
+  │   └── projects.yml
+  │
   └── static
 ```
 
@@ -97,6 +101,11 @@ Pull requests, bug fixes, and new features are welcome!
 5. Create new Pull Request on GitHub
 
 ## Changelog
+
+> Version 1.0.1
+
+- Added proper "Projects" page rendering
+- Fixes, many fixes
 
 > Version 1.0
 
