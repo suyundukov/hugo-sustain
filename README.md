@@ -80,7 +80,7 @@ Use `highlight = true` in the front matter to include [`highlight.js`][highlight
 
 ### Disqus
 
-To use this feature, uncomment and fill out the `disqusShortname` parameter in config.toml`.
+To use this feature, uncomment and fill out the `disqusShortname` parameter in `config.toml`.
 
 ### Google Analytics
 
