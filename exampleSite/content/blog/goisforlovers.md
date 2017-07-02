@@ -209,12 +209,6 @@ illustration of how to use the pipes.
 
 **Example 2 :**
 
-    {{ index .Params "disqus_url" | html }}
-
-Access the page parameter called "disqus_url" and escape the HTML.
-
-**Example 3 :**
-
     {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
     Stuff Here
     {{ end }}

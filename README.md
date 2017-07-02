@@ -6,7 +6,6 @@
 - [Quick start](#quick-start)
 - [Features](#features)
   - [Syntax highlighting](#syntax-highlighting)
-  - [Disqus](#disqus)
   - [Google Analytics](#google-analytics)
 - [About](#about)
 - [Contributing](#contributing)
@@ -77,10 +76,6 @@ theme should be visible.
 ### Syntax highlighting
 
 Use `highlight = true` in the front matter to include [`highlight.js`][highlight-js] javascript and css files.
-
-### Disqus
-
-To use this feature, uncomment and fill out the `disqusShortname` parameter in config.toml`.
 
 ### Google Analytics
 
