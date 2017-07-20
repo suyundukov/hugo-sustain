@@ -131,6 +131,7 @@ html, body {
   display: block;
   margin: 0 auto;
   margin-top: 40px;
+  padding: 0px;
   width: 100%;
   text-align: center;
   animation: fade 1s ease 1s both;
@@ -149,7 +150,7 @@ html, body {
   transition: all .4s ease;
 }
 .social-links li a:hover {
-  color: #000;
+  color: #197E7E;
 }
 .avatar {
   padding-top: 5%;
