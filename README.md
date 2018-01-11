@@ -66,7 +66,7 @@ Hugo includes a development server, so you can view your changes as you go -
 very handy. Spin it up with the following command:
 
 ``` sh
-hugo serve
+hugo server
 ```
 
 Now you can go to [localhost:1313][local] and the Sustain
