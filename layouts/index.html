@@ -5,7 +5,11 @@
       <section id="about">
         <div class="container">
         <div class="avatar">
-          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+          {{ if .Site.Params.avatarUrl }}
+          <img class="img-circle" src="{{ .Site.Params.avatarUrl }}" alt="Profile picture" />
+          {{ else }}
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Profile picture" />
+          {{ end }}
         </div>
         <h3>I'm <strong>{{ .Site.Params.author }}</strong>, a Software Engineer.</h3>
         <h3>I love all things computer science and maths.</h3>

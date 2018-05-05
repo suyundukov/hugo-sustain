@@ -12,6 +12,7 @@ theme = "hugo-sustain"
 
 [params]
   avatar = "profile.png"
+  avatarUrl = ""
   author = "Chris Turner"
   description = "Describe your website"
 
