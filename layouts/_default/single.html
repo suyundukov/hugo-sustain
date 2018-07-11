@@ -4,7 +4,7 @@
       <!-- Header -->
       {{ partial "header" . }}
       {{ if isset .Params "showpagemeta" }}
-        {{ .Render .Title }}
+        {{ .Render .Params.key }}
       {{ else }}
       <div class="container">
         <div class="blog-post">
