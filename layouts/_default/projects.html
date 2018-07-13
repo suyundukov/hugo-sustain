@@ -3,6 +3,7 @@
     <h3>{{ .Site.Data.projects.name }}</h3>
     <div class="panel panel-default">
       <div class="panel-body">
+      <center>{{ .Site.Data.projects.description }}</center>
       <ul class="timeline">
         {{ range .Site.Data.projects.source }}
           <li>
