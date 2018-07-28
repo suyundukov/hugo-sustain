@@ -20,10 +20,9 @@
 
     {{- $css_prefix := (.Param "css_prefix") -}}
 
-    {{ if fileExists (printf "static/css/%s-main.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-main.css" />{{ end }}
-    {{ if fileExists (printf "static/css/%s-base.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-base.css" />{{ end }}
-    {{ if fileExists (printf "static/css/%s-layout.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-layout.css" />{{ end }}
-    {{ if fileExists (printf "static/css/%s-skeleton.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-skeleton.css" />{{ end }}
+    {{ if fileExists (printf "themes/hugo-sustain-vitae/static/css/%s-layout.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-layout.css" />{{ end }}
+    {{ if fileExists (printf "themes/hugo-sustain-vitae/static/css/%s-skeleton.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-skeleton.css" />{{ end }}
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/sustain-main.css" />
 
     {{- if .Params.highlight -}}
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">

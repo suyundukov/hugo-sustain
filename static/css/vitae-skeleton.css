@@ -21,9 +21,9 @@
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
-    .container .column,
-    .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .vitae-container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .vitae-container .column,
+    .vitae-container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
@@ -31,43 +31,43 @@
     .column.omega, .columns.omega               { margin-right: 0; }
 
     /* Base Grid */
-    .container .one.column,
-    .container .one.columns                     { width: 40px;  }
-    .container .two.columns                     { width: 100px; }
-    .container .three.columns                   { width: 160px; }
-    .container .four.columns                    { width: 220px; }
-    .container .five.columns                    { width: 280px; }
-    .container .six.columns                     { width: 340px; }
-    .container .seven.columns                   { width: 400px; }
-    .container .eight.columns                   { width: 460px; }
-    .container .nine.columns                    { width: 520px; }
-    .container .ten.columns                     { width: 580px; }
-    .container .eleven.columns                  { width: 640px; }
-    .container .twelve.columns                  { width: 700px; }
-    .container .thirteen.columns                { width: 760px; }
-    .container .fourteen.columns                { width: 820px; }
-    .container .fifteen.columns                 { width: 880px; }
-    .container .sixteen.columns                 { width: 940px; }
+    .vitae-container .one.column,
+    .vitae-container .one.columns                     { width: 40px;  }
+    .vitae-container .two.columns                     { width: 100px; }
+    .vitae-container .three.columns                   { width: 160px; }
+    .vitae-container .four.columns                    { width: 220px; }
+    .vitae-container .five.columns                    { width: 280px; }
+    .vitae-container .six.columns                     { width: 340px; }
+    .vitae-container .seven.columns                   { width: 400px; }
+    .vitae-container .eight.columns                   { width: 460px; }
+    .vitae-container .nine.columns                    { width: 520px; }
+    .vitae-container .ten.columns                     { width: 580px; }
+    .vitae-container .eleven.columns                  { width: 640px; }
+    .vitae-container .twelve.columns                  { width: 700px; }
+    .vitae-container .thirteen.columns                { width: 760px; }
+    .vitae-container .fourteen.columns                { width: 820px; }
+    .vitae-container .fifteen.columns                 { width: 880px; }
+    .vitae-container .sixteen.columns                 { width: 940px; }
 
-    .container .one-third.column                { width: 300px; }
-    .container .two-thirds.column               { width: 620px; }
+    .vitae-container .one-third.column                { width: 300px; }
+    .vitae-container .two-thirds.column               { width: 620px; }
 
     /* Offsets */
-    .container .offset-by-one                   { padding-left: 60px;  }
-    .container .offset-by-two                   { padding-left: 120px; }
-    .container .offset-by-three                 { padding-left: 180px; }
-    .container .offset-by-four                  { padding-left: 240px; }
-    .container .offset-by-five                  { padding-left: 300px; }
-    .container .offset-by-six                   { padding-left: 360px; }
-    .container .offset-by-seven                 { padding-left: 420px; }
-    .container .offset-by-eight                 { padding-left: 480px; }
-    .container .offset-by-nine                  { padding-left: 540px; }
-    .container .offset-by-ten                   { padding-left: 600px; }
-    .container .offset-by-eleven                { padding-left: 660px; }
-    .container .offset-by-twelve                { padding-left: 720px; }
-    .container .offset-by-thirteen              { padding-left: 780px; }
-    .container .offset-by-fourteen              { padding-left: 840px; }
-    .container .offset-by-fifteen               { padding-left: 900px; }
+    .vitae-container .offset-by-one                   { padding-left: 60px;  }
+    .vitae-container .offset-by-two                   { padding-left: 120px; }
+    .vitae-container .offset-by-three                 { padding-left: 180px; }
+    .vitae-container .offset-by-four                  { padding-left: 240px; }
+    .vitae-container .offset-by-five                  { padding-left: 300px; }
+    .vitae-container .offset-by-six                   { padding-left: 360px; }
+    .vitae-container .offset-by-seven                 { padding-left: 420px; }
+    .vitae-container .offset-by-eight                 { padding-left: 480px; }
+    .vitae-container .offset-by-nine                  { padding-left: 540px; }
+    .vitae-container .offset-by-ten                   { padding-left: 600px; }
+    .vitae-container .offset-by-eleven                { padding-left: 660px; }
+    .vitae-container .offset-by-twelve                { padding-left: 720px; }
+    .vitae-container .offset-by-thirteen              { padding-left: 780px; }
+    .vitae-container .offset-by-fourteen              { padding-left: 840px; }
+    .vitae-container .offset-by-fifteen               { padding-left: 900px; }
 
 
 
@@ -77,50 +77,50 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container                                  { width: 768px; }
-        .container .column,
-        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .vitae-container                                  { width: 768px; }
+        .vitae-container .column,
+        .vitae-container .columns                         { margin-left: 10px; margin-right: 10px;  }
         .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
         .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
         .alpha.omega                                { margin-left: 0; margin-right: 0; }
 
-        .container .one.column,
-        .container .one.columns                     { width: 28px; }
-        .container .two.columns                     { width: 76px; }
-        .container .three.columns                   { width: 124px; }
-        .container .four.columns                    { width: 172px; }
-        .container .five.columns                    { width: 220px; }
-        .container .six.columns                     { width: 268px; }
-        .container .seven.columns                   { width: 316px; }
-        .container .eight.columns                   { width: 364px; }
-        .container .nine.columns                    { width: 412px; }
-        .container .ten.columns                     { width: 460px; }
-        .container .eleven.columns                  { width: 508px; }
-        .container .twelve.columns                  { width: 556px; }
-        .container .thirteen.columns                { width: 604px; }
-        .container .fourteen.columns                { width: 652px; }
-        .container .fifteen.columns                 { width: 700px; }
-        .container .sixteen.columns                 { width: 748px; }
+        .vitae-container .one.column,
+        .vitae-container .one.columns                     { width: 28px; }
+        .vitae-container .two.columns                     { width: 76px; }
+        .vitae-container .three.columns                   { width: 124px; }
+        .vitae-container .four.columns                    { width: 172px; }
+        .vitae-container .five.columns                    { width: 220px; }
+        .vitae-container .six.columns                     { width: 268px; }
+        .vitae-container .seven.columns                   { width: 316px; }
+        .vitae-container .eight.columns                   { width: 364px; }
+        .vitae-container .nine.columns                    { width: 412px; }
+        .vitae-container .ten.columns                     { width: 460px; }
+        .vitae-container .eleven.columns                  { width: 508px; }
+        .vitae-container .twelve.columns                  { width: 556px; }
+        .vitae-container .thirteen.columns                { width: 604px; }
+        .vitae-container .fourteen.columns                { width: 652px; }
+        .vitae-container .fifteen.columns                 { width: 700px; }
+        .vitae-container .sixteen.columns                 { width: 748px; }
 
-        .container .one-third.column                { width: 236px; }
-        .container .two-thirds.column               { width: 492px; }
+        .vitae-container .one-third.column                { width: 236px; }
+        .vitae-container .two-thirds.column               { width: 492px; }
 
         /* Offsets */
-        .container .offset-by-one                   { padding-left: 48px; }
-        .container .offset-by-two                   { padding-left: 96px; }
-        .container .offset-by-three                 { padding-left: 144px; }
-        .container .offset-by-four                  { padding-left: 192px; }
-        .container .offset-by-five                  { padding-left: 240px; }
-        .container .offset-by-six                   { padding-left: 288px; }
-        .container .offset-by-seven                 { padding-left: 336px; }
-        .container .offset-by-eight                 { padding-left: 384px; }
-        .container .offset-by-nine                  { padding-left: 432px; }
-        .container .offset-by-ten                   { padding-left: 480px; }
-        .container .offset-by-eleven                { padding-left: 528px; }
-        .container .offset-by-twelve                { padding-left: 576px; }
-        .container .offset-by-thirteen              { padding-left: 624px; }
-        .container .offset-by-fourteen              { padding-left: 672px; }
-        .container .offset-by-fifteen               { padding-left: 720px; }
+        .vitae-container .offset-by-one                   { padding-left: 48px; }
+        .vitae-container .offset-by-two                   { padding-left: 96px; }
+        .vitae-container .offset-by-three                 { padding-left: 144px; }
+        .vitae-container .offset-by-four                  { padding-left: 192px; }
+        .vitae-container .offset-by-five                  { padding-left: 240px; }
+        .vitae-container .offset-by-six                   { padding-left: 288px; }
+        .vitae-container .offset-by-seven                 { padding-left: 336px; }
+        .vitae-container .offset-by-eight                 { padding-left: 384px; }
+        .vitae-container .offset-by-nine                  { padding-left: 432px; }
+        .vitae-container .offset-by-ten                   { padding-left: 480px; }
+        .vitae-container .offset-by-eleven                { padding-left: 528px; }
+        .vitae-container .offset-by-twelve                { padding-left: 576px; }
+        .vitae-container .offset-by-thirteen              { padding-left: 624px; }
+        .vitae-container .offset-by-fourteen              { padding-left: 672px; }
+        .vitae-container .offset-by-fifteen               { padding-left: 720px; }
     }
 
 
@@ -130,46 +130,46 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
-        .container { width: 300px; }
-        .container .columns,
-        .container .column { margin: 0; }
+        .vitae-container { width: 300px; }
+        .vitae-container .columns,
+        .vitae-container .column { margin: 0; }
 
-        .container .one.column,
-        .container .one.columns,
-        .container .two.columns,
-        .container .three.columns,
-        .container .four.columns,
-        .container .five.columns,
-        .container .six.columns,
-        .container .seven.columns,
-        .container .eight.columns,
-        .container .nine.columns,
-        .container .ten.columns,
-        .container .eleven.columns,
-        .container .twelve.columns,
-        .container .thirteen.columns,
-        .container .fourteen.columns,
-        .container .fifteen.columns,
-        .container .sixteen.columns,
-        .container .one-third.column,
-        .container .two-thirds.column  { width: 300px; }
+        .vitae-container .one.column,
+        .vitae-container .one.columns,
+        .vitae-container .two.columns,
+        .vitae-container .three.columns,
+        .vitae-container .four.columns,
+        .vitae-container .five.columns,
+        .vitae-container .six.columns,
+        .vitae-container .seven.columns,
+        .vitae-container .eight.columns,
+        .vitae-container .nine.columns,
+        .vitae-container .ten.columns,
+        .vitae-container .eleven.columns,
+        .vitae-container .twelve.columns,
+        .vitae-container .thirteen.columns,
+        .vitae-container .fourteen.columns,
+        .vitae-container .fifteen.columns,
+        .vitae-container .sixteen.columns,
+        .vitae-container .one-third.column,
+        .vitae-container .two-thirds.column  { width: 300px; }
 
         /* Offsets */
-        .container .offset-by-one,
-        .container .offset-by-two,
-        .container .offset-by-three,
-        .container .offset-by-four,
-        .container .offset-by-five,
-        .container .offset-by-six,
-        .container .offset-by-seven,
-        .container .offset-by-eight,
-        .container .offset-by-nine,
-        .container .offset-by-ten,
-        .container .offset-by-eleven,
-        .container .offset-by-twelve,
-        .container .offset-by-thirteen,
-        .container .offset-by-fourteen,
-        .container .offset-by-fifteen { padding-left: 0; }
+        .vitae-container .offset-by-one,
+        .vitae-container .offset-by-two,
+        .vitae-container .offset-by-three,
+        .vitae-container .offset-by-four,
+        .vitae-container .offset-by-five,
+        .vitae-container .offset-by-six,
+        .vitae-container .offset-by-seven,
+        .vitae-container .offset-by-eight,
+        .vitae-container .offset-by-nine,
+        .vitae-container .offset-by-ten,
+        .vitae-container .offset-by-eleven,
+        .vitae-container .offset-by-twelve,
+        .vitae-container .offset-by-thirteen,
+        .vitae-container .offset-by-fourteen,
+        .vitae-container .offset-by-fifteen { padding-left: 0; }
 
     }
 
@@ -180,29 +180,29 @@
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .container { width: 420px; }
-        .container .columns,
-        .container .column { margin: 0; }
+        .vitae-container { width: 420px; }
+        .vitae-container .columns,
+        .vitae-container .column { margin: 0; }
 
-        .container .one.column,
-        .container .one.columns,
-        .container .two.columns,
-        .container .three.columns,
-        .container .four.columns,
-        .container .five.columns,
-        .container .six.columns,
-        .container .seven.columns,
-        .container .eight.columns,
-        .container .nine.columns,
-        .container .ten.columns,
-        .container .eleven.columns,
-        .container .twelve.columns,
-        .container .thirteen.columns,
-        .container .fourteen.columns,
-        .container .fifteen.columns,
-        .container .sixteen.columns,
-        .container .one-third.column,
-        .container .two-thirds.column { width: 420px; }
+        .vitae-container .one.column,
+        .vitae-container .one.columns,
+        .vitae-container .two.columns,
+        .vitae-container .three.columns,
+        .vitae-container .four.columns,
+        .vitae-container .five.columns,
+        .vitae-container .six.columns,
+        .vitae-container .seven.columns,
+        .vitae-container .eight.columns,
+        .vitae-container .nine.columns,
+        .vitae-container .ten.columns,
+        .vitae-container .eleven.columns,
+        .vitae-container .twelve.columns,
+        .vitae-container .thirteen.columns,
+        .vitae-container .fourteen.columns,
+        .vitae-container .fifteen.columns,
+        .vitae-container .sixteen.columns,
+        .vitae-container .one-third.column,
+        .vitae-container .two-thirds.column { width: 420px; }
     }
 
 
@@ -210,7 +210,7 @@
 ================================================== */
 
     /* Self Clearing Goodness */
-    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+    .vitae-container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
     /* Use clearfix class on parent to clear nested columns,
     or wrap each row of columns in a <div class="row"> */

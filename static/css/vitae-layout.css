@@ -1,15 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);*/
 
-body {
+/*body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
     border-top: 5px solid #27a822;
     border-bottom: 5px solid #27A822;
-}
+}*/
 
-.container {
+.vitae-container {
     margin-top: 50px;
 }
 
@@ -49,11 +49,11 @@ header > h1 {
     margin-bottom: 20px;
 }
 
-.container > header p, .container > header address {
+.vitae-container > header p, .vitae-container > header address {
     margin-bottom: 20px;
 }
 
-.container > header p:last-child {
+.vitae-container > header p:last-child {
     margin-bottom: 20px;
 }
 
@@ -127,7 +127,7 @@ em {
         line-height: 21pt;
     }
 
-    .container > header {
+    .vitae-container > header {
         font-size: 80%;
         line-height: 160%;
     }
@@ -136,9 +136,4 @@ em {
         font-size: 80%;
         line-height: 80%;
     }
-}
-
-footer p {
-    margin-bottom: 10px;
-    font-size: 10pt;
 }
