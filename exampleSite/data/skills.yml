@@ -1,0 +1,11 @@
+name: Programming Skills
+title: Software engineering & web development
+source:
+  - name: [C/C++, Objective-C]
+    stars: 5
+
+  - name: [Java, Python, PHP, Git]
+    stars: 4
+
+  - name: [HTML/CSS3, Javascript]
+    stars: 3

@@ -1,0 +1,18 @@
+<section class="thirteen columns">
+  <h1>{{ .Site.Data.education.name }}</h1>
+  {{ range .Site.Data.education.source }}
+  <article>
+    <header>
+      <h1>{{ .title }}</h1>
+      <span>{{ .univ }}</span>
+      <span>
+        <address>{{ .place }}</address>
+        <time>{{ .date }}</time>
+      </span>
+    </header>
+    <p>
+      <em>{{ title .type }}: {{ .description }}</em>
+    </p>
+  </article>
+  {{ end }}
+</section>

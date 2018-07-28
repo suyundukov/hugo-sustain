@@ -1,0 +1,23 @@
+<header class="three columns">
+  <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
+  <h1>{{ .Site.Params.author }}</h1>
+  <p>
+    <a href="tel:{{ .Site.Params.tel_full }}">{{ .Site.Params.tel }}</a>
+  </p>
+  <address>
+    <a href="{{ .Site.Params.google_maps }}">
+      {{ .Site.Params.address }}<br/>
+      {{ .Site.Params.postcode }}<br/>
+      {{ .Site.Params.city }}<br/>
+      {{ .Site.Params.country }}
+    </a>
+  </address>
+  <p>
+    <a href="{{ .Site.Params.website_full }}">{{ .Site.Params.website }}</a><br/>
+  </p>
+  <p>
+    <a href="{{ .Site.Params.email_full }}">{{ .Site.Params.email }}</a>
+    <a href="http://github.com/{{ .Site.Params.github }}"><i class="fa fa-github"></i>&nbsp;Github</a> /
+    <a href="http://twitter.com/{{ .Site.Params.twitter }}"><i class="fa fa-twitter"></i>&nbsp;Twitter</a>
+  </p>
+</header>

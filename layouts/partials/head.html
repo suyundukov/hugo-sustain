@@ -17,7 +17,14 @@
 	</title>
     {{ .Hugo.Generator }}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/main.css" />
+
+    {{- $css_prefix := (.Param "css_prefix") -}}
+
+    {{ if fileExists (printf "static/css/%s-main.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-main.css" />{{ end }}
+    {{ if fileExists (printf "static/css/%s-base.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-base.css" />{{ end }}
+    {{ if fileExists (printf "static/css/%s-layout.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-layout.css" />{{ end }}
+    {{ if fileExists (printf "static/css/%s-skeleton.css" $css_prefix) }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/{{ $css_prefix }}-skeleton.css" />{{ end }}
+
     {{- if .Params.highlight -}}
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">
     {{ end }}
