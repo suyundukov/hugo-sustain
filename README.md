@@ -15,7 +15,10 @@
 
 ********************
 
-![Sustain Screen](images/screenshot.png) ![Vitae Screen](images/screenshot-vitae.png)
+<p align="center">
+  <a href="images/screenshot.png"><img src="images/screenshot.png" width="440" /></a>
+  <a href="images/screenshot-vitae.png"><img src="images/screenshot-vitae.png" width="440" /></a>
+</p>
 
 ********************
 <p align="center"><b><a href="https://anirbanmu.com/hugo-sustain-vitae/">Sustain-vitae Live Demo</a></b></p>
