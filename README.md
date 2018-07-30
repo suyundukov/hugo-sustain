@@ -1,4 +1,8 @@
-![Sustain - Logo][logo]
+<p align="center">
+  <a href="images/hugo-sustain-logo.png"><img src="images/hugo-sustain-logo.png" height="275" /></a>
+  <span style="background-color: rgb(225, 228, 232);height:275px"></span>
+  <a href="images/hugo-vitae-logo.png"><img src="images/hugo-vitae-logo.png" height="275" /></a>
+</p>
 
 ## Table of Contents
 
@@ -99,7 +103,11 @@ To add Google Analytics, simply sign up to [Google Analytics][g-analytics] to ob
 
 ## About
 
-This is a port of the Jekyll theme [Sustain][sustain-jekyll] by [Fábio Madeira][sustain-author]. It supports most of the features of the original theme.
+This fork is a combined theme from [hugo-sustain](https://github.com/nurlansu/hugo-sustain) & [hugo-vitae](https://github.com/nurlansu/hugo-vitae).
+
+hugo-sustain is a port the Jekyll theme [Sustain][sustain-jekyll] by [Fábio Madeira][sustain-author].
+
+hugo-vitae is port of the Jekyll theme [Vitae][vitae-jekyll] by [Fábio Madeira][vitae-author].
 
 ## Contributing
 
@@ -131,7 +139,6 @@ Pull requests, bug fixes, and new features are welcome!
 
 
 
-[logo]: https://i.nurlan.co/sustain.png
 [bootstrap]: https://getbootstrap.com/
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
