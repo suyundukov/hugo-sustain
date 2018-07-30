@@ -1,0 +1,15 @@
+name: Education
+source:
+  - title: MSc in Advanced Computing
+    univ: University of Glasgow
+    place: Glasgow, UK
+    date: 2011 to 2012
+    type: thesis
+    description: Nemore verear an eos, duo accusam placerat urbanitas at, vix libris putent voluptaria ei.
+
+  - title: Major in Computer Science
+    univ: University of College London
+    place: London, UK
+    date: 2007 to 2011
+    type: dissertation
+    description: Te dicit scripta nec, nec illud decore partem et.

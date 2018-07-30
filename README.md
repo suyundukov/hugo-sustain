@@ -1,4 +1,7 @@
-![Sustain - Logo][logo]
+<p align="center">
+  <a href="images/hugo-sustain-logo.png"><img src="images/hugo-sustain-logo.png" width="440" /></a>
+  <a href="images/hugo-vitae-logo.png"><img src="images/hugo-vitae-logo.png" width="440" /></a>
+</p>
 
 ## Table of Contents
 
@@ -15,26 +18,29 @@
 
 ********************
 
-![Sustain Screen][screenshot]
+<p align="center">
+  <a href="images/screenshot.png"><img src="images/screenshot.png" height="275" /></a>
+  <span style="background-color: rgb(225, 228, 232);height:275px"></span>
+  <a href="images/screenshot-vitae.png"><img src="images/screenshot-vitae.png" height="275" /></a>
+</p>
 
 ********************
-
-<p align="center"><b><a href="https://demo.nurlan.co/hugo-sustain/">Sustain Live Demo</a></b></p>
+<p align="center"><b><a href="https://anirbanmu.com/hugo-sustain-vitae/">Sustain-vitae Live Demo</a></b></p>
 
 ## Installation
 
 #### With `git`
 
-From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running :
+From the root of your Hugo site, clone the theme into `themes/hugo-sustain-vitae` by running :
 ```
-git clone https://github.com/nurlansu/hugo-sustain.git themes/hugo-sustain
+git clone https://github.com/anirbanmu/hugo-sustain-vitae.git themes/hugo-sustain
 ```
 
 #### Manual
 
 1. [Download][zip-archive] zip archive.
 2. Unarchive it.
-3. Move `hugo-sustain` folder in `themes` folder of your blog
+3. Move `hugo-sustain-vitae` folder in `themes` folder of your blog
 
 For more information read the official [setup guide][hugo-guide] of Hugo.
 
@@ -47,6 +53,7 @@ After installation, take a look in the `exampleSite` folder at. This directory c
   ├── config.toml
   ├── content
   │   ├── projects.md
+  │   ├── vitae.md
   │   │
   │   └── blog
   │       ├── creating-a-new-theme.md
@@ -55,9 +62,16 @@ After installation, take a look in the `exampleSite` folder at. This directory c
   │       └── migrate-from-jekyll.md
   │
   ├── data
-  │   └── projects.yml
+  |   ├── education.yml
+  |   ├── employment.yml
+  |   ├── hobbies.yml
+  |   ├── initiatives.yml
+  |   ├── projects.yml
+  │   └── skills.yml
   │
-  └── static
+  ├── static
+  │   └── img
+  │       └── profile.png
 ```
 
 Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
@@ -88,7 +102,11 @@ To add Google Analytics, simply sign up to [Google Analytics][g-analytics] to ob
 
 ## About
 
-This is a port of the Jekyll theme [Sustain][sustain-jekyll] by [Fábio Madeira][sustain-author]. It supports most of the features of the original theme.
+This fork is a combined theme from [hugo-sustain](https://github.com/nurlansu/hugo-sustain) & [hugo-vitae](https://github.com/nurlansu/hugo-vitae).
+
+hugo-sustain is a port the Jekyll theme [Sustain][sustain-jekyll] by [Fábio Madeira][sustain-author].
+
+hugo-vitae is port of the Jekyll theme [Vitae][vitae-jekyll] by [Fábio Madeira][vitae-author].
 
 ## Contributing
 
@@ -120,12 +138,10 @@ Pull requests, bug fixes, and new features are welcome!
 
 
 
-[logo]: https://i.nurlan.co/sustain.png
-[screenshot]: https://i.nurlan.co/sustain-screen.png
 [bootstrap]: https://getbootstrap.com/
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
-[zip-archive]: https://github.com/nurlansu/hugo-sustain/archive/master.zip
+[zip-archive]: https://github.com/anirbanmu/hugo-sustain-vitae/archive/master.zip
 [hugo-guide]: https://gohugo.io/overview/installing/
 [local]: http://localhost:1313/
 [highlight-js]: https://highlightjs.org/

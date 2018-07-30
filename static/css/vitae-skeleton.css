@@ -1,0 +1,242 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .vitae-container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .vitae-container .column,
+    .vitae-container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                                        { margin-bottom: 20px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .vitae-container .one.column,
+    .vitae-container .one.columns                     { width: 40px;  }
+    .vitae-container .two.columns                     { width: 100px; }
+    .vitae-container .three.columns                   { width: 160px; }
+    .vitae-container .four.columns                    { width: 220px; }
+    .vitae-container .five.columns                    { width: 280px; }
+    .vitae-container .six.columns                     { width: 340px; }
+    .vitae-container .seven.columns                   { width: 400px; }
+    .vitae-container .eight.columns                   { width: 460px; }
+    .vitae-container .nine.columns                    { width: 520px; }
+    .vitae-container .ten.columns                     { width: 580px; }
+    .vitae-container .eleven.columns                  { width: 640px; }
+    .vitae-container .twelve.columns                  { width: 700px; }
+    .vitae-container .thirteen.columns                { width: 760px; }
+    .vitae-container .fourteen.columns                { width: 820px; }
+    .vitae-container .fifteen.columns                 { width: 880px; }
+    .vitae-container .sixteen.columns                 { width: 940px; }
+
+    .vitae-container .one-third.column                { width: 300px; }
+    .vitae-container .two-thirds.column               { width: 620px; }
+
+    /* Offsets */
+    .vitae-container .offset-by-one                   { padding-left: 60px;  }
+    .vitae-container .offset-by-two                   { padding-left: 120px; }
+    .vitae-container .offset-by-three                 { padding-left: 180px; }
+    .vitae-container .offset-by-four                  { padding-left: 240px; }
+    .vitae-container .offset-by-five                  { padding-left: 300px; }
+    .vitae-container .offset-by-six                   { padding-left: 360px; }
+    .vitae-container .offset-by-seven                 { padding-left: 420px; }
+    .vitae-container .offset-by-eight                 { padding-left: 480px; }
+    .vitae-container .offset-by-nine                  { padding-left: 540px; }
+    .vitae-container .offset-by-ten                   { padding-left: 600px; }
+    .vitae-container .offset-by-eleven                { padding-left: 660px; }
+    .vitae-container .offset-by-twelve                { padding-left: 720px; }
+    .vitae-container .offset-by-thirteen              { padding-left: 780px; }
+    .vitae-container .offset-by-fourteen              { padding-left: 840px; }
+    .vitae-container .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .vitae-container                                  { width: 768px; }
+        .vitae-container .column,
+        .vitae-container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .vitae-container .one.column,
+        .vitae-container .one.columns                     { width: 28px; }
+        .vitae-container .two.columns                     { width: 76px; }
+        .vitae-container .three.columns                   { width: 124px; }
+        .vitae-container .four.columns                    { width: 172px; }
+        .vitae-container .five.columns                    { width: 220px; }
+        .vitae-container .six.columns                     { width: 268px; }
+        .vitae-container .seven.columns                   { width: 316px; }
+        .vitae-container .eight.columns                   { width: 364px; }
+        .vitae-container .nine.columns                    { width: 412px; }
+        .vitae-container .ten.columns                     { width: 460px; }
+        .vitae-container .eleven.columns                  { width: 508px; }
+        .vitae-container .twelve.columns                  { width: 556px; }
+        .vitae-container .thirteen.columns                { width: 604px; }
+        .vitae-container .fourteen.columns                { width: 652px; }
+        .vitae-container .fifteen.columns                 { width: 700px; }
+        .vitae-container .sixteen.columns                 { width: 748px; }
+
+        .vitae-container .one-third.column                { width: 236px; }
+        .vitae-container .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+        .vitae-container .offset-by-one                   { padding-left: 48px; }
+        .vitae-container .offset-by-two                   { padding-left: 96px; }
+        .vitae-container .offset-by-three                 { padding-left: 144px; }
+        .vitae-container .offset-by-four                  { padding-left: 192px; }
+        .vitae-container .offset-by-five                  { padding-left: 240px; }
+        .vitae-container .offset-by-six                   { padding-left: 288px; }
+        .vitae-container .offset-by-seven                 { padding-left: 336px; }
+        .vitae-container .offset-by-eight                 { padding-left: 384px; }
+        .vitae-container .offset-by-nine                  { padding-left: 432px; }
+        .vitae-container .offset-by-ten                   { padding-left: 480px; }
+        .vitae-container .offset-by-eleven                { padding-left: 528px; }
+        .vitae-container .offset-by-twelve                { padding-left: 576px; }
+        .vitae-container .offset-by-thirteen              { padding-left: 624px; }
+        .vitae-container .offset-by-fourteen              { padding-left: 672px; }
+        .vitae-container .offset-by-fifteen               { padding-left: 720px; }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .vitae-container { width: 300px; }
+        .vitae-container .columns,
+        .vitae-container .column { margin: 0; }
+
+        .vitae-container .one.column,
+        .vitae-container .one.columns,
+        .vitae-container .two.columns,
+        .vitae-container .three.columns,
+        .vitae-container .four.columns,
+        .vitae-container .five.columns,
+        .vitae-container .six.columns,
+        .vitae-container .seven.columns,
+        .vitae-container .eight.columns,
+        .vitae-container .nine.columns,
+        .vitae-container .ten.columns,
+        .vitae-container .eleven.columns,
+        .vitae-container .twelve.columns,
+        .vitae-container .thirteen.columns,
+        .vitae-container .fourteen.columns,
+        .vitae-container .fifteen.columns,
+        .vitae-container .sixteen.columns,
+        .vitae-container .one-third.column,
+        .vitae-container .two-thirds.column  { width: 300px; }
+
+        /* Offsets */
+        .vitae-container .offset-by-one,
+        .vitae-container .offset-by-two,
+        .vitae-container .offset-by-three,
+        .vitae-container .offset-by-four,
+        .vitae-container .offset-by-five,
+        .vitae-container .offset-by-six,
+        .vitae-container .offset-by-seven,
+        .vitae-container .offset-by-eight,
+        .vitae-container .offset-by-nine,
+        .vitae-container .offset-by-ten,
+        .vitae-container .offset-by-eleven,
+        .vitae-container .offset-by-twelve,
+        .vitae-container .offset-by-thirteen,
+        .vitae-container .offset-by-fourteen,
+        .vitae-container .offset-by-fifteen { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .vitae-container { width: 420px; }
+        .vitae-container .columns,
+        .vitae-container .column { margin: 0; }
+
+        .vitae-container .one.column,
+        .vitae-container .one.columns,
+        .vitae-container .two.columns,
+        .vitae-container .three.columns,
+        .vitae-container .four.columns,
+        .vitae-container .five.columns,
+        .vitae-container .six.columns,
+        .vitae-container .seven.columns,
+        .vitae-container .eight.columns,
+        .vitae-container .nine.columns,
+        .vitae-container .ten.columns,
+        .vitae-container .eleven.columns,
+        .vitae-container .twelve.columns,
+        .vitae-container .thirteen.columns,
+        .vitae-container .fourteen.columns,
+        .vitae-container .fifteen.columns,
+        .vitae-container .sixteen.columns,
+        .vitae-container .one-third.column,
+        .vitae-container .two-thirds.column { width: 420px; }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .vitae-container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }

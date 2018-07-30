@@ -1,0 +1,15 @@
+<section class="thirteen columns">
+  <h1>{{ .Site.Data.initiatives.name }}</h1>
+  {{ range .Site.Data.initiatives.source }}
+  <article>
+    <header>
+      <h1>{{ .title }}</h1>
+      <span>
+        <address>{{ .place }}</address>
+        <time>{{ .date }}</time>
+      </span>
+    </header>
+    <p>{{ title .type }}: {{ .description }}</p>
+  </article>
+  {{ end }}
+</section>
