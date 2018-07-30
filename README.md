@@ -15,11 +15,9 @@
 
 ********************
 
-![Sustain Screen](images/screenshot.png)
-![Vitae Screen](images/screenshot-vitae.png)
+![Sustain Screen](images/screenshot.png) ![Vitae Screen](images/screenshot-vitae.png)
 
 ********************
-
 <p align="center"><b><a href="https://anirbanmu.com/hugo-sustain-vitae/">Sustain-vitae Live Demo</a></b></p>
 
 ## Installation
