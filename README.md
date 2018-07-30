@@ -15,11 +15,12 @@
 
 ********************
 
-![Sustain Screen][screenshot]
+![Sustain Screen](images/screenshot.png)
+![Vitae Screen](images/screenshot-vitae.png)
 
 ********************
 
-<p align="center"><b><a href="https://demo.nurlan.co/hugo-sustain/">Sustain Live Demo</a></b></p>
+<p align="center"><b><a href="https://anirbanmu.com/hugo-sustain-vitae/">Sustain-vitae Live Demo</a></b></p>
 
 ## Installation
 
@@ -129,7 +130,6 @@ Pull requests, bug fixes, and new features are welcome!
 
 
 [logo]: https://i.nurlan.co/sustain.png
-[screenshot]: https://i.nurlan.co/sustain-screen.png
 [bootstrap]: https://getbootstrap.com/
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
