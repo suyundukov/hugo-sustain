@@ -1,7 +1,6 @@
 <p align="center">
-  <a href="images/hugo-sustain-logo.png"><img src="images/hugo-sustain-logo.png" height="275" /></a>
-  <span style="background-color: rgb(225, 228, 232);height:275px"></span>
-  <a href="images/hugo-vitae-logo.png"><img src="images/hugo-vitae-logo.png" height="275" /></a>
+  <a href="images/hugo-sustain-logo.png"><img src="images/hugo-sustain-logo.png" width="440" /></a>
+  <a href="images/hugo-vitae-logo.png"><img src="images/hugo-vitae-logo.png" width="440" /></a>
 </p>
 
 ## Table of Contents
