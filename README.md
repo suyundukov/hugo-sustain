@@ -16,8 +16,9 @@
 ********************
 
 <p align="center">
-  <a href="images/screenshot.png"><img src="images/screenshot.png" width="440" /></a>
-  <a href="images/screenshot-vitae.png"><img src="images/screenshot-vitae.png" width="440" /></a>
+  <a href="images/screenshot.png"><img src="images/screenshot.png" height="275" /></a>
+  <span style="background-color: rgb(225, 228, 232);height:275px"></span>
+  <a href="images/screenshot-vitae.png"><img src="images/screenshot-vitae.png" height="275" /></a>
 </p>
 
 ********************
