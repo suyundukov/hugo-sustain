@@ -14,7 +14,6 @@ theme = "hugo-sustain-vitae"
   avatar = "profile.png"
   author = "Chris Turner"
   description = "Describe your website"
-  css_prefix = "sustain"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
