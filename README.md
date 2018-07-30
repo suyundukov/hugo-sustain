@@ -25,16 +25,16 @@
 
 #### With `git`
 
-From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running :
+From the root of your Hugo site, clone the theme into `themes/hugo-sustain-vitae` by running :
 ```
-git clone https://github.com/nurlansu/hugo-sustain.git themes/hugo-sustain
+git clone https://github.com/anirbanmu/hugo-sustain-vitae.git themes/hugo-sustain
 ```
 
 #### Manual
 
 1. [Download][zip-archive] zip archive.
 2. Unarchive it.
-3. Move `hugo-sustain` folder in `themes` folder of your blog
+3. Move `hugo-sustain-vitae` folder in `themes` folder of your blog
 
 For more information read the official [setup guide][hugo-guide] of Hugo.
 
@@ -47,6 +47,7 @@ After installation, take a look in the `exampleSite` folder at. This directory c
   ├── config.toml
   ├── content
   │   ├── projects.md
+  │   ├── vitae.md
   │   │
   │   └── blog
   │       ├── creating-a-new-theme.md
@@ -55,9 +56,16 @@ After installation, take a look in the `exampleSite` folder at. This directory c
   │       └── migrate-from-jekyll.md
   │
   ├── data
-  │   └── projects.yml
+  |   ├── education.yml
+  |   ├── employment.yml
+  |   ├── hobbies.yml
+  |   ├── initiatives.yml
+  |   ├── projects.yml
+  │   └── skills.yml
   │
-  └── static
+  ├── static
+  │   └── img
+  │       └── profile.png
 ```
 
 Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
@@ -125,7 +133,7 @@ Pull requests, bug fixes, and new features are welcome!
 [bootstrap]: https://getbootstrap.com/
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
-[zip-archive]: https://github.com/nurlansu/hugo-sustain/archive/master.zip
+[zip-archive]: https://github.com/anirbanmu/hugo-sustain-vitae/archive/master.zip
 [hugo-guide]: https://gohugo.io/overview/installing/
 [local]: http://localhost:1313/
 [highlight-js]: https://highlightjs.org/
