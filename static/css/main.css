@@ -160,6 +160,10 @@ html, body {
 .blog-title{
   padding-top: 2px;
 }
+.label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
 .related-posts h4 {
   text-align: center;
 }
