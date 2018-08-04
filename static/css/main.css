@@ -96,10 +96,11 @@ html, body {
 .container a:hover {
   color: #267723;
 }
-.img-responsive {
- display: block;
- height: auto;
- max-width: 100%;
+.container p img, .img-responsive {
+  display: block;
+  height: auto;
+  margin: 2rem auto;
+  max-width: 100%;
 }
 .panel-default h4 {
   text-align: left;
@@ -162,8 +163,8 @@ html, body {
   padding-top: 2px;
 }
 .label {
-    display: inline-block;
-    margin-bottom: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 .related-posts h4 {
   text-align: center;
