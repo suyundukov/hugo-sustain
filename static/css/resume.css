@@ -1,0 +1,388 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+
+body {
+    /* font-family: "Raleway", Helvetica, Arial, sans-serif; */
+    font-size: 15px;
+    line-height: 21px;
+    color: rgb(48, 48, 48);
+    border-top: 5px solid #27a822;
+    /* border-bottom: 5px solid #27A822; */
+}
+
+#resume .container {
+    margin-top: 50px;
+    text-align: left
+}
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+#resume .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+#resume .container .column,
+#resume .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+.row                                        { margin-bottom: 20px; }
+
+/* Nested Column Classes */
+.column.alpha, .columns.alpha               { margin-left: 0; }
+.column.omega, .columns.omega               { margin-right: 0; }
+
+/* Base Grid */
+#resume .container .one.column,
+#resume .container .one.columns                     { width: 40px;  }
+#resume .container .two.columns                     { width: 100px; }
+#resume .container .three.columns                   { width: 160px; }
+#resume .container .four.columns                    { width: 220px; }
+#resume .container .five.columns                    { width: 280px; }
+#resume .container .six.columns                     { width: 340px; }
+#resume .container .seven.columns                   { width: 400px; }
+#resume .container .eight.columns                   { width: 460px; }
+#resume .container .nine.columns                    { width: 520px; }
+#resume .container .ten.columns                     { width: 580px; }
+#resume .container .eleven.columns                  { width: 640px; }
+#resume .container .twelve.columns                  { width: 700px; }
+#resume .container .thirteen.columns                { width: 600px; }
+#resume .container .fourteen.columns                { width: 820px; }
+#resume .container .fifteen.columns                 { width: 880px; }
+#resume .container .sixteen.columns                 { width: 940px; }
+
+#resume .container .one-third.column                { width: 300px; }
+#resume .container .two-thirds.column               { width: 620px; }
+
+/* Offsets */
+#resume .container .offset-by-one                   { padding-left: 60px;  }
+#resume .container .offset-by-two                   { padding-left: 120px; }
+#resume .container .offset-by-three                 { padding-left: 180px; }
+#resume .container .offset-by-four                  { padding-left: 240px; }
+#resume .container .offset-by-five                  { padding-left: 300px; }
+#resume .container .offset-by-six                   { padding-left: 360px; }
+#resume .container .offset-by-seven                 { padding-left: 420px; }
+#resume .container .offset-by-eight                 { padding-left: 480px; }
+#resume .container .offset-by-nine                  { padding-left: 540px; }
+#resume .container .offset-by-ten                   { padding-left: 600px; }
+#resume .container .offset-by-eleven                { padding-left: 660px; }
+#resume .container .offset-by-twelve                { padding-left: 720px; }
+#resume .container .offset-by-thirteen              { padding-left: 780px; }
+#resume .container .offset-by-fourteen              { padding-left: 840px; }
+#resume .container .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #resume .container                                  { width: 768px; }
+    #resume .container .column,
+    #resume .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+    .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+    .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+    .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+    #resume .container .one.column,
+    #resume .container .one.columns                     { width: 28px; }
+    #resume .container .two.columns                     { width: 76px; }
+    #resume .container .three.columns                   { width: 124px; }
+    #resume .container .four.columns                    { width: 172px; }
+    #resume .container .five.columns                    { width: 220px; }
+    #resume .container .six.columns                     { width: 268px; }
+    #resume .container .seven.columns                   { width: 316px; }
+    #resume .container .eight.columns                   { width: 364px; }
+    #resume .container .nine.columns                    { width: 412px; }
+    #resume .container .ten.columns                     { width: 460px; }
+    #resume .container .eleven.columns                  { width: 508px; }
+    #resume .container .twelve.columns                  { width: 556px; }
+    #resume .container .thirteen.columns                { width: 604px; }
+    #resume .container .fourteen.columns                { width: 652px; }
+    #resume .container .fifteen.columns                 { width: 700px; }
+    #resume .container .sixteen.columns                 { width: 748px; }
+
+    #resume .container .one-third.column                { width: 236px; }
+    #resume .container .two-thirds.column               { width: 492px; }
+
+    /* Offsets */
+    #resume .container .offset-by-one                   { padding-left: 48px; }
+    #resume .container .offset-by-two                   { padding-left: 96px; }
+    #resume .container .offset-by-three                 { padding-left: 144px; }
+    #resume .container .offset-by-four                  { padding-left: 192px; }
+    #resume .container .offset-by-five                  { padding-left: 240px; }
+    #resume .container .offset-by-six                   { padding-left: 288px; }
+    #resume .container .offset-by-seven                 { padding-left: 336px; }
+    #resume .container .offset-by-eight                 { padding-left: 384px; }
+    #resume .container .offset-by-nine                  { padding-left: 432px; }
+    #resume .container .offset-by-ten                   { padding-left: 480px; }
+    #resume .container .offset-by-eleven                { padding-left: 528px; }
+    #resume .container .offset-by-twelve                { padding-left: 576px; }
+    #resume .container .offset-by-thirteen              { padding-left: 624px; }
+    #resume .container .offset-by-fourteen              { padding-left: 672px; }
+    #resume .container .offset-by-fifteen               { padding-left: 720px; }
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+    #resume .container { width: 300px; }
+    #resume .container .columns,
+    #resume .container .column { margin: 0; }
+
+    #resume .container .one.column,
+    #resume .container .one.columns,
+    #resume .container .two.columns,
+    #resume .container .three.columns,
+    #resume .container .four.columns,
+    #resume .container .five.columns,
+    #resume .container .six.columns,
+    #resume .container .seven.columns,
+    #resume .container .eight.columns,
+    #resume .container .nine.columns,
+    #resume .container .ten.columns,
+    #resume .container .eleven.columns,
+    #resume .container .twelve.columns,
+    #resume .container .thirteen.columns,
+    #resume .container .fourteen.columns,
+    #resume .container .fifteen.columns,
+    #resume .container .sixteen.columns,
+    #resume .container .one-third.column,
+    #resume .container .two-thirds.column  { width: 300px; }
+
+    /* Offsets */
+    #resume .container .offset-by-one,
+    #resume .container .offset-by-two,
+    #resume .container .offset-by-three,
+    #resume .container .offset-by-four,
+    #resume .container .offset-by-five,
+    #resume .container .offset-by-six,
+    #resume .container .offset-by-seven,
+    #resume .container .offset-by-eight,
+    #resume .container .offset-by-nine,
+    #resume .container .offset-by-ten,
+    #resume .container .offset-by-eleven,
+    #resume .container .offset-by-twelve,
+    #resume .container .offset-by-thirteen,
+    #resume .container .offset-by-fourteen,
+    #resume .container .offset-by-fifteen { padding-left: 0; }
+
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #resume .container { width: 420px; }
+    #resume .container .columns,
+    #resume .container .column { margin: 0; }
+
+    #resume .container .one.column,
+    #resume .container .one.columns,
+    #resume .container .two.columns,
+    #resume .container .three.columns,
+    #resume .container .four.columns,
+    #resume .container .five.columns,
+    #resume .container .six.columns,
+    #resume .container .seven.columns,
+    #resume .container .eight.columns,
+    #resume .container .nine.columns,
+    #resume .container .ten.columns,
+    #resume .container .eleven.columns,
+    #resume .container .twelve.columns,
+    #resume .container .thirteen.columns,
+    #resume .container .fourteen.columns,
+    #resume .container .fifteen.columns,
+    #resume .container .sixteen.columns,
+    #resume .container .one-third.column,
+    #resume .container .two-thirds.column { width: 420px; }
+}
+
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+#resume .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+a {
+    text-decoration: none;
+    /*background-color: rgba(39, 168, 34, 0.06);*/
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #27A822;
+}
+
+p, address {
+    margin-bottom: 0;
+}
+
+.me {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+header > h1, section > h1 {
+    color: #27A822;
+}
+
+header > h1 {
+    line-height: 100%;
+    font-size: 250%;
+    margin-bottom: 20px;
+}
+
+.container > header p, .container > header address {
+    margin-bottom: 20px;
+}
+
+.container > header p:last-child {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section > h1 {
+    font-size: 140%;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article > header > h1 {
+    font-size: 112%;
+    font-weight: bold;
+    line-height: 150%;
+    margin-bottom: 0;
+    color: inherit;
+}
+
+article > header > span + span {
+    margin-left: 2px;
+}
+
+article > header > span + span::before {
+    content: '@';
+    margin-right: 4px;
+}
+
+article > header > span {
+    color: #808080;
+    font-size: 100%;
+}
+
+article > header > span a {
+    color: inherit;
+}
+
+article > header address {
+    display: inline;
+}
+
+article > header address + time {
+    margin-left: 6px;
+}
+
+article > header address + time::before {
+    content: '—';
+    margin-right: 6px;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    /*margin-right: 6px;*/
+}
+
+@media print {
+    @page {
+        margin: 15mm;
+    }
+
+    body {
+        font-size: 14pt;
+        line-height: 21pt;
+    }
+
+    .container > header {
+        font-size: 80%;
+        line-height: 160%;
+    }
+
+    article > header > span {
+        font-size: 80%;
+        line-height: 80%;
+    }
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 10pt;
+}

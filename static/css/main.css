@@ -87,6 +87,9 @@ html, body {
   max-width: 800px;
   text-align: center;
 }
+.container p img {
+  width: 100%;
+}
 .container .text-muted {
   margin: 20px 0;
 }
