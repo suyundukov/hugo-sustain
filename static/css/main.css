@@ -131,6 +131,7 @@ html, body {
   display: block;
   margin: 0 auto;
   margin-top: 40px;
+  padding: 0px;
   width: 100%;
   text-align: center;
   animation: fade 1s ease 1s both;
