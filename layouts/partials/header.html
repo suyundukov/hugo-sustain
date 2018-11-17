@@ -11,7 +11,7 @@
     <div class="navbar-collapse collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
       {{ if .Site.Menus.main }}
-        {{ range sort .Site.Menus.main }}
+        {{ range .Site.Menus.main }}
         <li><a href="{{ .URL }}">{{ .Name | upper }}</a></li>
         {{ end }}
       {{ end }}
