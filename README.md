@@ -6,7 +6,7 @@
 
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
-    - [With `git`](#with-git)
+  - [With `git`](#with-git)
     - [Manual](#manual)
 - [Quick start](#quick-start)
 - [Features](#features)
@@ -28,17 +28,18 @@
 
 ## Installation
 
-#### With `git`
+### With `git`
 
 From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running :
-```
+
+```sh
 git clone https://github.com/nurlansu/hugo-sustain.git themes/hugo-sustain
 ```
 
 #### Manual
 
 1. [Download][zip-archive] zip archive.
-2. Unarchive it.
+2. Un archive it.
 3. Move `hugo-sustain` folder in `themes` folder of your blog
 
 For more information read the official [setup guide][hugo-guide] of Hugo.
@@ -47,7 +48,7 @@ For more information read the official [setup guide][hugo-guide] of Hugo.
 
 After installation, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your documentation.
 
-```
+```sh
   exampleSite
   ├── config.toml
   ├── content
@@ -70,7 +71,7 @@ Copy at least the `config.toml` in the root directory of your website. Overwrite
 Hugo includes a development server, so you can view your changes as you go -
 very handy. Spin it up with the following command:
 
-``` sh
+```sh
 hugo serve
 ```
 
@@ -122,8 +123,6 @@ Pull requests, bug fixes, and new features are welcome!
   <a href="./LICENSE.md"><img src="https://i.nurlan.co/logo.svg" width="100%" height="128"></a>
   <a href="./LICENSE.md"><strong>MIT</strong></a>
 </p>
-
-
 
 [logo]: https://i.nurlan.co/sustain.png
 [screenshot]: https://i.nurlan.co/sustain-screen.png
