@@ -86,6 +86,10 @@ To use this feature, uncomment and fill out the `disqusShortname` parameter in `
 
 To add Google Analytics, simply sign up to [Google Analytics][g-analytics] to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
 
+### Gravatar
+
+To use this feature, uncomment and fill out the `gravatar` parameter in `config.toml`.
+
 ## About
 
 This is a port of the Jekyll theme [Sustain][sustain-jekyll] by [Fábio Madeira][sustain-author]. It supports most of the features of the original theme.

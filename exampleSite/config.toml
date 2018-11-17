@@ -11,7 +11,8 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.png"
+  # avatar = "profile.png" # use or gravatar or avatar file
+  gravatar = "email@domain"
   author = "Chris Turner"
   description = "Describe your website"
 

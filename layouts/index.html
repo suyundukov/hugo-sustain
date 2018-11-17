@@ -5,7 +5,11 @@
       <section id="about">
         <div class="container">
         <div class="avatar">
+        {{ with .Site.Params.gravatar }}
+          <img class="img-circle" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=200&d=identicon"/>
+        {{ else }}
           <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        {{ end }}
         </div>
         <h3>I'm <strong>{{ .Site.Params.author }}</strong>, a Software Engineer.</h3>
         <h3>I love all things computer science and maths.</h3>
