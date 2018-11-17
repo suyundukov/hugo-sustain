@@ -1,8 +1,13 @@
 ![Sustain - Logo][logo]
 
+[![Build Status](https://travis-ci.org/nurlansu/hugo-sustain.svg?branch=master)](https://travis-ci.org/nurlansu/hugo-sustain)
+
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
+    - [With `git`](#with-git)
+    - [Manual](#manual)
 - [Quick start](#quick-start)
 - [Features](#features)
   - [Syntax highlighting](#syntax-highlighting)

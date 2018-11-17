@@ -1,0 +1,10 @@
+sudo: false
+
+install:
+  - mkdir tools
+  - wget -q "https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.tar.gz" -O "tools/hugo.tar.gz"
+  - tar -xzf tools/hugo.tar.gz -C tools
+  
+script:
+  - git clone --depth 1 https://github.com/kishaningithub/hugo-shopping-product-catalogue-simple.git exampleSite/themes/hugo-shopping-product-catalogue-simple
+  - ./tools/hugo -v --source exampleSite
