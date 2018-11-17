@@ -15,6 +15,13 @@ theme = "hugo-sustain"
   avatarUrl = ""
   author = "Chris Turner"
   description = "Describe your website"
+  about = """
+      <h3>I'm <strong>Chris Turner</strong>, a Software Engineer.</h3>
+      <h3>I love all things computer science and maths.</h3>
+      <h3>Have a look at some of my working <a href="projects/"> projects</a>.</h3>
+      <h3>For more check out my academic &amp; professional <a href="https://demo.nurlan.co/hugo-vitae/">resume</a>.</h3>
+      <h3>Contact me at <a href="http://twitter.com/username">@username</a> or by <a href="mailto:email@example.com">email</a>.</h3>
+      """
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
