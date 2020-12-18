@@ -27,6 +27,7 @@ theme = "hugo-sustain"
   Stackoverflow = "username"
   Medium        = "username"
   Telegram      = "username"
+  RSS           = "/blog/index.xml"
 
 ## Main Menu
 [[menu.main]]
