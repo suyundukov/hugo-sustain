@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2017 Nurlan Su
+Copyright (c) 2021 Nurlan Suyundukov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

@@ -13,7 +13,6 @@
   - [Google Analytics](#google-analytics)
 - [About](#about)
 - [Contributing](#contributing)
-- [Changelog](#changelog)
 - [License](#license)
 
 ********************
@@ -29,7 +28,8 @@
 #### With `git`
 
 From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running :
-```
+
+```sh
 git clone https://github.com/nurlansu/hugo-sustain.git themes/hugo-sustain
 ```
 
@@ -68,7 +68,7 @@ Copy at least the `config.toml` in the root directory of your website. Overwrite
 Hugo includes a development server, so you can view your changes as you go -
 very handy. Spin it up with the following command:
 
-``` sh
+```sh
 hugo serve
 ```
 
@@ -102,17 +102,6 @@ Pull requests, bug fixes, and new features are welcome!
 3. Commit your changes (`git commit -a -m 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request on GitHub
-
-## Changelog
-
-> Version 1.0.1
-
-- Added proper "Projects" page rendering
-- Fixes, many fixes
-
-> Version 1.0
-
-- Initial release
 
 ## License
 

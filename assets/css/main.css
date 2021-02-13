@@ -1,0 +1,202 @@
+/* Main page with stikky-footer */
+html, body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+  border-top: 3px solid #27a822;
+}
+
+/* Wrapper for page content to push down footer */
+#content {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -69px;
+  /* Pad bottom by footer height */
+  padding: 0 0 69px;
+}
+
+#about {
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .navbar-link,
+.navbar .navbar-link:hover,
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-text,
+.navbar-toggler {
+  color: #6b6b6b;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus {
+  color: #6b6b6b;
+  background-color: #fff;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-collapse,
+.navbar-form {
+  border-color: #6b6b6b;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu > li > a {
+    color: #6b6b6b;
+  }
+
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6b6b6b;
+  }
+
+  .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #6b6b6b;
+    background-color: #fff;
+  }
+}
+
+/* Custom page CSS */
+.container {
+  max-width: 800px;
+  text-align: center;
+}
+
+.container a {
+  color: #27a822;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: #267723;
+}
+
+.container p img,
+.img-responsive {
+  display: block;
+  height: auto;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+.panel {
+  border-style: none;
+}
+
+.panel-body {
+  padding-top: -10px;
+  text-align: left;
+}
+
+.panel h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.panel h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.panel h6 {
+  font-size: 15px;
+}
+
+.panel h4 a,
+h5 a {
+  color: #27a822;
+}
+
+.panel h4 a:hover,
+h5 a:hover {
+  color: #267723;
+}
+
+.social-links {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  animation: fade 1s ease 1s both;
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 5px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.social-links li a {
+  font-size: 20px;
+  color: #000;
+  padding: 10px;
+  padding-bottom: 4px;
+  transition: all .4s ease;
+}
+
+.social-links li a:hover {
+  color: #000;
+}
+
+.avatar {
+  padding-top: 8vh;
+}
+
+.blog-title {
+  padding-top: 2px;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.related-posts {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.related-posts h4 {
+  text-align: center;
+}
+
+.page-not-found {
+  padding-top: 20%;
+}
+
+.disqus {
+  padding-bottom: 15px;
+}
+
+.blogpost {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+/* Footer  */
+.footer {
+  border-bottom: 5px solid #27a822;
+  padding: 20px 0;
+  text-decoration: none !important;
+}

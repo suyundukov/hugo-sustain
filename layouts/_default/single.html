@@ -1,60 +1,47 @@
-{{ partial "head" . }}
-  <body>
-    <div id="wrap">
+{{ define "main" }}
+  <!-- Header -->
+  {{ partial "header" . }}
 
-      <!-- Header -->
-      {{ partial "header" . }}
-      {{ if isset .Params "showpagemeta" }}
-        {{ .Render "projects" }}
-      {{ else }}
-      <div class="container">
-        <div class="blog-post">
-          <h3>
-            <strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong>
-          </h3>
-        </div>
-        <div class="blog-title">
-          <h4>
-          {{ .Date.Format "January 2, 2006" }}
-            &nbsp;&nbsp;
-            {{ range .Params.tags }}
-            <span class="label label-success">{{ . }}</span>
-            {{ end }}
-          </h4>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="blogpost">
-              {{ .Content }}
-              <hr>
-              <div class="related-posts">
-                <h5>Related Posts</h5>
-                {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
-                  <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                      <h6 style="text-align: right">
-                        {{ .Date.Format "January 2, 2006" }}
-                      </h6>
-                    </div>
-                    <div class="col-sm-8 col-md-8 col-lg-8">
-                      <h6 style="text-align: left">
-                        <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
-                      </h6>
-                    </div>
+  <div class="container">
+    <h3 class="mt-3"><b><a href="{{ .Permalink }}">{{ .Title }}</a></b></h3>
+    <div class="blog-title my-4">
+      <h6>
+        {{ .Date.Format "January 2, 2006" }}
+        &nbsp;&nbsp;
+        {{ range .Params.tags }}
+          <span class="badge bg-success">{{ . }}</span>
+        {{ end }}
+      </h6>
+    </div>
+    <div class="panel">
+      <div class="panel-body">
+        <div class="blogpost">
+          {{ .Content }}
+          {{ $related := .Site.RegularPages.Related . | first 3 }}
+          {{ with $related }}
+            <div class="related-posts mt-4 py-3">
+              <h5>Related Posts</h5>
+              {{ range . }}
+                <div class="row">
+                  <div class="col-4">
+                    <h6 style="text-align: right">
+                      {{ .Date.Format "January 2, 2006" }}
+                    </h6>
                   </div>
-                {{ end }}
-              </div>
+                  <div class="col-8">
+                    <h6 style="text-align: left">
+                      <b><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></b>
+                    </h6>
+                  </div>
+                </div>
+              {{ end }}
             </div>
-          </div>
-          <hr>
-        {{ partial "disqus" . }}
+          {{ end }}
         </div>
       </div>
-      {{ end }}
+      <div class="disqus">
+        {{ template "_internal/disqus.html" . }}
+      </div>
     </div>
-
-    <!-- Footer -->
-    {{ partial "footer" . }}
-    
-  </body>
-</html>
+  </div>
+{{ end }}

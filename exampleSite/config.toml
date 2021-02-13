@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseURL = "https://example.com/"
 languageCode = "en-US"
 title = "Chris Turner"
 # Enable comments by entering your Disqus shortname
@@ -11,7 +11,7 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.png"
+  avatar = "img/profile.png"
   author = "Chris Turner"
   description = "Describe your website"
 
