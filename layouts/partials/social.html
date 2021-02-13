@@ -27,5 +27,9 @@
     {{ with .Site.Params.Social.Telegram }}
       <li><a href="https://telegram.me/{{ . }}"><i class="fa fa-telegram"></i></a></li>
     {{ end }}
+
+    {{ with .Site.Params.Social.RSS }}
+      <li><a href="{{ . }}"><i class="fa fa-rss"></i></a></li>
+    {{ end }}
   </ul>
 </div>
