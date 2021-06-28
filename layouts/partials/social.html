@@ -31,5 +31,9 @@
     {{ with .Site.Params.Social.RSS }}
       <li><a href="{{ . }}"><i class="fa fa-rss"></i></a></li>
     {{ end }}
+
+    {{ with .Site.Params.Social.Angellist }}
+      <li><a href="https://angel.co/u/{{ . }}"><i class="fa fa-angellist"></i></a></li>
+    {{ end }}
   </ul>
 </div>
