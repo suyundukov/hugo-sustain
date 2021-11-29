@@ -24,6 +24,10 @@
       <li><a href="https://medium.com/@{{ . }}"><i class="fa fa-medium"></i></a></li>
     {{ end }}
 
+    {{ with .Site.Params.Social.Hashnode }}
+      <li><a href="https://@{{ . }}.hashnode.dev"><i class="fa fa-blog"></i></a></li>
+    {{ end }}
+
     {{ with .Site.Params.Social.Telegram }}
       <li><a href="https://telegram.me/{{ . }}"><i class="fa fa-telegram"></i></a></li>
     {{ end }}
