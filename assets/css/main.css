@@ -78,7 +78,7 @@ html, body {
 }
 
 .container a {
-  color: #27a822;
+  color: #eee;
   text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ html, body {
 
 .panel h4 a,
 h5 a {
-  color: #27a822;
+  color: #eee;
 }
 
 .panel h4 a:hover,
