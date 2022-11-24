@@ -69,7 +69,7 @@ html, body {
   .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: #282A3A;
+    background-color: #1a191e;
   }
 }
 
