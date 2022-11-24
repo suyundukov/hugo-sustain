@@ -75,6 +75,7 @@ html, body {
 .container {
   max-width: 800px;
   text-align: center;
+
 }
 
 .container a {
@@ -101,22 +102,26 @@ html, body {
 .panel-body {
   padding-top: -10px;
   text-align: left;
+  color: #eee;
 }
 
 .panel h4 {
   text-align: left;
   line-height: 24px;
   font-size: 22px;
+  color: #eee;
 }
 
 .panel h5 {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
+  color: #eee;
 }
 
 .panel h6 {
   font-size: 15px;
+  color: #eee;
 }
 
 .panel h4 a,
@@ -164,11 +169,13 @@ h5 a:hover {
 
 .blog-title {
   padding-top: 2px;
+  color: #eee;
 }
 
 .label {
   display: inline-block;
   margin-bottom: 5px;
+  color: #eee;
 }
 
 .related-posts {
@@ -178,20 +185,24 @@ h5 a:hover {
 
 .related-posts h4 {
   text-align: center;
+  color: #eee;
 }
 
 .page-not-found {
   padding-top: 20%;
+  color: #eee;
 }
 
 .disqus {
   padding-bottom: 15px;
+  color: #eee;
 }
 
 .blogpost {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
+  color: #eee;
 }
 
 /* Footer  */
