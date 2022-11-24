@@ -15,10 +15,12 @@ html, body {
   margin: 0 auto -69px;
   /* Pad bottom by footer height */
   padding: 0 0 69px;
+  color: #eee;
 }
 
 #about {
   font-size: 1.5rem;
+  color: #eee;
 }
 
 .navbar .navbar-brand,
