@@ -1,7 +1,7 @@
 /* Main page with stikky-footer */
 html, body {
   height: 100%;
-  background-color: #fff;
+  background-color: #282A3A;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #27a822;
@@ -31,7 +31,7 @@ html, body {
 .navbar .navbar-nav > li > a:focus,
 .navbar .navbar-text,
 .navbar-toggler {
-  color: #6b6b6b;
+  color: #fff;
 }
 
 .navbar-nav > .active > a,
@@ -40,8 +40,8 @@ html, body {
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
-  background-color: #fff;
+  color: #fff;
+  background-color: #282A3A;
 }
 
 .navbar-toggler:focus {
@@ -50,24 +50,24 @@ html, body {
 
 .navbar-collapse,
 .navbar-form {
-  border-color: #6b6b6b;
+  border-color: #fff;
 }
 
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu > li > a {
-    color: #6b6b6b;
+    color: #fff;
   }
 
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6b6b6b;
+    color: #fff;
   }
 
   .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
-    background-color: #fff;
+    color: #fff;
+    background-color: #282A3A;
   }
 }
 
