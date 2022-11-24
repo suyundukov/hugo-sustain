@@ -1,7 +1,7 @@
 /* Main page with stikky-footer */
 html, body {
   height: 100%;
-  background-color: #282A3A;
+  background-color: #1a191e;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #eee;
@@ -43,7 +43,7 @@ html, body {
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #282A3A;
+  background-color: #1a191e;
 }
 
 .navbar-toggler:focus {
