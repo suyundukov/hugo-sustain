@@ -4,7 +4,7 @@ html, body {
   background-color: #282A3A;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27a822;
+  border-top: 3px solid #eee;
 }
 
 /* Wrapper for page content to push down footer */
@@ -148,14 +148,14 @@ h5 a:hover {
 
 .social-links li a {
   font-size: 20px;
-  color: #000;
+  color: #eee;
   padding: 10px;
   padding-bottom: 4px;
   transition: all .4s ease;
 }
 
 .social-links li a:hover {
-  color: #000;
+  color: #eee;
 }
 
 .avatar {
