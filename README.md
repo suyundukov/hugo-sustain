@@ -21,7 +21,7 @@
 
 ********************
 
-<p align="center"><b><a href="https://demo.nurlan.co/hugo-sustain/">Sustain Live Demo</a></b></p>
+<p align="center"><b><a href="https://demo.suyundukov.com/hugo-sustain/">Sustain Live Demo</a></b></p>
 
 ## Installation
 
@@ -106,14 +106,14 @@ Pull requests, bug fixes, and new features are welcome!
 ## License
 
 <p align="center">
-  <a href="./LICENSE.md"><img src="https://nurlan.co/cdn/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE.md"><img src="https://suyundukov.com/cdn/logo.svg" width="100%" height="128"></a>
   <a href="./LICENSE.md"><strong>MIT</strong></a>
 </p>
 
 
 
-[logo]: https://nurlan.co/cdn/sustain.png
-[screenshot]: https://nurlan.co/cdn/sustain-screen.png
+[logo]: https://suyundukov.com/cdn/sustain.png
+[screenshot]: https://suyundukov.com/cdn/sustain-screen.png
 [bootstrap]: https://getbootstrap.com/
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
