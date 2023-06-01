@@ -1,10 +1,10 @@
 /* Main page with stikky-footer */
 html, body {
   height: 100%;
-  background-color: #fff;
+  background-color: #1a191e;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27a822;
+  border-top: 3px solid #eee;
 }
 
 /* Wrapper for page content to push down footer */
@@ -15,10 +15,12 @@ html, body {
   margin: 0 auto -69px;
   /* Pad bottom by footer height */
   padding: 0 0 69px;
+  color: #eee;
 }
 
 #about {
   font-size: 1.5rem;
+  color: #eee;
 }
 
 .navbar .navbar-brand,
@@ -31,7 +33,7 @@ html, body {
 .navbar .navbar-nav > li > a:focus,
 .navbar .navbar-text,
 .navbar-toggler {
-  color: #6b6b6b;
+  color: #fff;
 }
 
 .navbar-nav > .active > a,
@@ -40,8 +42,8 @@ html, body {
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
-  background-color: #fff;
+  color: #fff;
+  background-color: #1a191e;
 }
 
 .navbar-toggler:focus {
@@ -50,24 +52,24 @@ html, body {
 
 .navbar-collapse,
 .navbar-form {
-  border-color: #6b6b6b;
+  border-color: #fff;
 }
 
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu > li > a {
-    color: #6b6b6b;
+    color: #fff;
   }
 
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6b6b6b;
+    color: #fff;
   }
 
   .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1a191e;
   }
 }
 
@@ -75,10 +77,12 @@ html, body {
 .container {
   max-width: 800px;
   text-align: center;
+  color: #eee;
+
 }
 
 .container a {
-  color: #27a822;
+  color: #eee;
   text-decoration: none;
 }
 
@@ -101,27 +105,31 @@ html, body {
 .panel-body {
   padding-top: -10px;
   text-align: left;
+  color: #eee;
 }
 
 .panel h4 {
   text-align: left;
   line-height: 24px;
   font-size: 22px;
+  color: #eee;
 }
 
 .panel h5 {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
+  color: #eee;
 }
 
 .panel h6 {
   font-size: 15px;
+  color: #eee;
 }
 
 .panel h4 a,
 h5 a {
-  color: #27a822;
+  color: #eee;
 }
 
 .panel h4 a:hover,
@@ -148,14 +156,14 @@ h5 a:hover {
 
 .social-links li a {
   font-size: 20px;
-  color: #000;
+  color: #eee;
   padding: 10px;
   padding-bottom: 4px;
   transition: all .4s ease;
 }
 
 .social-links li a:hover {
-  color: #000;
+  color: #eee;
 }
 
 .avatar {
@@ -164,11 +172,13 @@ h5 a:hover {
 
 .blog-title {
   padding-top: 2px;
+  color: #eee;
 }
 
 .label {
   display: inline-block;
   margin-bottom: 5px;
+  color: #eee;
 }
 
 .related-posts {
@@ -178,25 +188,29 @@ h5 a:hover {
 
 .related-posts h4 {
   text-align: center;
+  color: #eee;
 }
 
 .page-not-found {
   padding-top: 20%;
+  color: #eee;
 }
 
 .disqus {
   padding-bottom: 15px;
+  color: #eee;
 }
 
 .blogpost {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
+  color: #eee;
 }
 
 /* Footer  */
 .footer {
-  border-bottom: 5px solid #27a822;
+  border-bottom: 5px solid #eee;
   padding: 20px 0;
   text-decoration: none !important;
 }
